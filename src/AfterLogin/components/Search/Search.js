@@ -58,14 +58,13 @@ const Search = () => {
   };
 
   const handleSaveRoom = (data) => {
-    const roomGuests = parseInt(data.guestnum, 10);
+    const roomGuests = parseInt(data.guestnum);
     setSelectedRooms((prevSelectedRooms) => [...prevSelectedRooms, data]);
     setTotalSelectedGuests((prevTotal) => prevTotal + roomGuests);
   };
 
   const handleSubmit = () => {
     if (totalSelectedGuests !== searchGuestNum) {
-      console.log("Total selected guests do not match the searched guest number");
       return;
     }
 
