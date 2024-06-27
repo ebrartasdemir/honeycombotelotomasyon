@@ -58,7 +58,7 @@ const Search = () => {
   };
 
   const handleSaveRoom = (data) => {
-    const roomGuests = parseInt(data.guestnum);
+    const roomGuests = parseInt(data.guestnum, 10);
     setSelectedRooms((prevSelectedRooms) => [...prevSelectedRooms, data]);
     setTotalSelectedGuests((prevTotal) => prevTotal + roomGuests);
   };
