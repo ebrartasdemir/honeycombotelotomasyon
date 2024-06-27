@@ -1,0 +1,46 @@
+
+.homeTitle{
+    text-align:center ;
+    background-color: rgb(0, 0, 0,0.5);
+    color:rgba(255, 255, 255, 0.9);
+}
+.suitNum{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  
+  .card_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .card_line {
+    width: 80%;
+    border-bottom: 2px dashed black;
+    margin: 10px 0;
+  }
+  
+  .card_number {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+  }
+  .home_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }

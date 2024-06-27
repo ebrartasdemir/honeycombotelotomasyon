@@ -1,0 +1,50 @@
+
+.transparency{
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+}
+.home_b_l{
+  background-image: url('https://cdn.prod.website-files.com/60b0c490c031f80841d793e5/60b0c490c031f85e8fd79527_hotel-kaskady-bg__1920px-3.jpg');
+}
+.home_body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.home_body h1{
+  text-align: center;
+  align-items: center;
+}
+.inside_of_header{
+  display: flex;
+  justify-content: space-between;
+}
+.header-menu{
+  
+
+  background-color: rgba(0, 0, 0, 0);
+}
+.header-menu:where(.css-dev-only-do-not-override-m4timi).ant-menu-dark.ant-menu-horizontal >.ant-menu-item-selected{
+  background-color: rgba(0, 0, 0, 0.488);
+}
+.login-container{
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 50rem;
+  padding: 10%;
+  align-items: center;
+  border-radius: 1%;
+  box-shadow: 2%;
+}
+.login-title{
+  font-size: 2rem;
+}
+.login-submit{
+  color: white;
+  background-color: rgba(195, 138, 26,0.8);
+}
+
+.login-input{
+
+}
